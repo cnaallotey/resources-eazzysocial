@@ -4,6 +4,10 @@
   "description": "My fantabulous Nuxt.js project",
   "author": "Charles Allotey",
   "private": true,
+  "engines" : { 
+    "npm" : ">=7.0.0",
+    "node" : ">=16.0.0"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",
