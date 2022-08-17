@@ -15,9 +15,9 @@
                   </h2>
                 </div>
                 <div class="max-w-3xl mx-auto lg:mx-0 mt-8">
-                  <div class="flex items-center">
+                  <div class="flex items-center w-fit mx-auto lg:mx-0">
                     <p
-                      class="mb-6 text-white uppercase tracking-wide leading-loose bg-orange-600 px-3 py-1"
+                      class="mb-6 text-white uppercase tracking-wide leading-loose bg-orange-600 px-3 py-1 hidden md:block"
                     >
                       Upcoming Live
                     </p>
@@ -28,7 +28,7 @@
                     </p>
                   </div>
 
-                  <div class="flex items-center space-x-3">
+                  <div class="flex items-center space-x-3 w-fit mx-auto lg:mx-0">
                     <div class="w-[64px] h-[64px] rounded-full bg-white"></div>
                     <div class="">
                       <p class="text-lg font-normal text-gray-800">Joe Bradly</p>

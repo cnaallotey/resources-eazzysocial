@@ -3,7 +3,7 @@
     <div class="w-full">
       <div class="max-w-screen-xl mx-auto px-4">
         <div class="w-full grid grid-cols-3">
-          <div class="col-span-3 lg:col-span-2">
+          <div class="col-span-3 lg:col-span-2 order-2 lg:order-1">
             <h2
               class="text-2xl font-bold leading-7 text-left text-gray-900 sm:text-3xl sm:tracking-tight sm:truncate mt-20"
             >
@@ -44,6 +44,54 @@
                 <p class="text-xl font-semibold text-gray-900">How to tie a Knot</p>
               </div>
             </div>
+          </div>
+          <div
+            class="w-fill col-span-3 lg:col-span-1 border border-gray-200 order-1 lg:order-2"
+          >
+            <div class="w-full p-4 bg-blue-900">
+              <p class="text-xl font-bold text-white leading-6 text-center">
+                Please complete this form to register
+              </p>
+            </div>
+            <form action="submit">
+              <div class="p-4">
+                <label for="name">First name</label
+                ><input
+                  type="text"
+                  class="w-full border border-gray-300 rounded p-2 text-sm font-normal mt-1 mb-4"
+                />
+                <label for="name">Last name</label
+                ><input
+                  type="text"
+                  class="w-full border border-gray-300 rounded p-2 text-sm font-normal mt-1 mb-4"
+                />
+                <label for="company">Company</label
+                ><input
+                  type="text"
+                  class="w-full border border-gray-300 rounded p-2 text-sm font-normal mt-1 mb-4"
+                />
+                <label for="Country">Country</label
+                ><input
+                  type="text"
+                  class="w-full border border-gray-300 rounded p-2 text-sm font-normal mt-1 mb-4"
+                />
+                <label for="contact">Contact Number</label
+                ><input
+                  type="tel"
+                  class="w-full border border-gray-300 rounded p-2 text-sm font-normal mt-1 mb-4"
+                />
+                <label for="whatsapp">Whatsapp Number</label
+                ><input
+                  type="tel"
+                  class="w-full border border-gray-300 rounded p-2 text-sm font-normal mt-1 mb-4"
+                />
+              </div>
+              <button
+                class="py-3 w-full text-center bg-blue-500 text-sm font-semibold text-white hover:bg-blue-600"
+              >
+                Register
+              </button>
+            </form>
           </div>
         </div>
       </div>
