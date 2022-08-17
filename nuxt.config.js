@@ -35,7 +35,7 @@ module.exports = {
   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxt/postcss8',
+    // '@nuxt/postcss8',
     '@nuxtjs/tailwindcss',
   ],
   /*
